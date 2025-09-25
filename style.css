@@ -2,6 +2,13 @@ body{
     background-color: blueviolet;
     color: brown;
 }
+
+header {
+    border: solid 2px brown ;
+    font-size: 32px;
+    padding: 10px;
+    color: crimson;
+}
 h1 {
     font-size: 30px;
     text-align: center;
