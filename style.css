@@ -2,6 +2,8 @@ body{
     background-color: blueviolet;
     color: brown;
     font-family: "monsieur",la-doulaise;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -31,4 +33,24 @@ h1 {
 p {
     font-size: 16px;
     color: aqua;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+}
+
+categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid purple;
+}
+
+.categoria h2 {
+    color: pink;
 }
